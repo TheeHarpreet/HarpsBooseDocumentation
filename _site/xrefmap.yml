@@ -1,0 +1,739 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: HarpsBOOSEapp
+  name: HarpsBOOSEapp
+  href: api/HarpsBOOSEapp.html
+  commentId: N:HarpsBOOSEapp
+  fullName: HarpsBOOSEapp
+  nameWithType: HarpsBOOSEapp
+- uid: HarpsBOOSEapp.HarpsAppCanvas
+  name: HarpsAppCanvas
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html
+  commentId: T:HarpsBOOSEapp.HarpsAppCanvas
+  fullName: HarpsBOOSEapp.HarpsAppCanvas
+  nameWithType: HarpsAppCanvas
+- uid: HarpsBOOSEapp.HarpsAppCanvas.#ctor(System.Int32,System.Int32)
+  name: HarpsAppCanvas(int, int)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas__ctor_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.HarpsAppCanvas(int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.New(Integer, Integer)
+  nameWithType: HarpsAppCanvas.HarpsAppCanvas(int, int)
+  nameWithType.vb: HarpsAppCanvas.New(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.#ctor*
+  name: HarpsAppCanvas
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas__ctor_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.HarpsAppCanvas
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.New
+  nameWithType: HarpsAppCanvas.HarpsAppCanvas
+  nameWithType.vb: HarpsAppCanvas.New
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Circle_System_Int32_System_Boolean_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Circle(int, bool)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.Circle(Integer, Boolean)
+  nameWithType: HarpsAppCanvas.Circle(int, bool)
+  nameWithType.vb: HarpsAppCanvas.Circle(Integer, Boolean)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Circle*
+  name: Circle
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Circle_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Circle
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Circle
+  nameWithType: HarpsAppCanvas.Circle
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Clear
+  name: Clear()
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Clear
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Clear
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Clear()
+  nameWithType: HarpsAppCanvas.Clear()
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Clear*
+  name: Clear
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Clear_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Clear
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Clear
+  nameWithType: HarpsAppCanvas.Clear
+- uid: HarpsBOOSEapp.HarpsAppCanvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.DrawTo(int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.DrawTo(Integer, Integer)
+  nameWithType: HarpsAppCanvas.DrawTo(int, int)
+  nameWithType.vb: HarpsAppCanvas.DrawTo(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.DrawTo*
+  name: DrawTo
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_DrawTo_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.DrawTo
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.DrawTo
+  nameWithType: HarpsAppCanvas.DrawTo
+- uid: HarpsBOOSEapp.HarpsAppCanvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.MoveTo(int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.MoveTo(Integer, Integer)
+  nameWithType: HarpsAppCanvas.MoveTo(int, int)
+  nameWithType.vb: HarpsAppCanvas.MoveTo(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.MoveTo*
+  name: MoveTo
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_MoveTo_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.MoveTo
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.MoveTo
+  nameWithType: HarpsAppCanvas.MoveTo
+- uid: HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  name: PenColour
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_PenColour
+  commentId: P:HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  nameWithType: HarpsAppCanvas.PenColour
+- uid: HarpsBOOSEapp.HarpsAppCanvas.PenColour*
+  name: PenColour
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_PenColour_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  nameWithType: HarpsAppCanvas.PenColour
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Rect(int, int, bool)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.Rect(Integer, Integer, Boolean)
+  nameWithType: HarpsAppCanvas.Rect(int, int, bool)
+  nameWithType.vb: HarpsAppCanvas.Rect(Integer, Integer, Boolean)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Rect*
+  name: Rect
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Rect_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Rect
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Rect
+  nameWithType: HarpsAppCanvas.Rect
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Reset
+  name: Reset()
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Reset
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Reset
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Reset()
+  nameWithType: HarpsAppCanvas.Reset()
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Reset*
+  name: Reset
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Reset_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Reset
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Reset
+  nameWithType: HarpsAppCanvas.Reset
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Set_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Set(int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.Set(Integer, Integer)
+  nameWithType: HarpsAppCanvas.Set(int, int)
+  nameWithType.vb: HarpsAppCanvas.Set(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Set*
+  name: Set
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Set_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Set
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Set
+  nameWithType: HarpsAppCanvas.Set
+- uid: HarpsBOOSEapp.HarpsAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.SetColour(int, int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.SetColour(Integer, Integer, Integer)
+  nameWithType: HarpsAppCanvas.SetColour(int, int, int)
+  nameWithType.vb: HarpsAppCanvas.SetColour(Integer, Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.SetColour*
+  name: SetColour
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_SetColour_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.SetColour
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.SetColour
+  nameWithType: HarpsAppCanvas.SetColour
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Tri_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Tri(int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.Tri(Integer, Integer)
+  nameWithType: HarpsAppCanvas.Tri(int, int)
+  nameWithType.vb: HarpsAppCanvas.Tri(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Tri*
+  name: Tri
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Tri_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Tri
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Tri
+  nameWithType: HarpsAppCanvas.Tri
+- uid: HarpsBOOSEapp.HarpsAppCanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_WriteText_System_String_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.WriteText(string)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.WriteText(String)
+  nameWithType: HarpsAppCanvas.WriteText(string)
+  nameWithType.vb: HarpsAppCanvas.WriteText(String)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.WriteText*
+  name: WriteText
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_WriteText_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.WriteText
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.WriteText
+  nameWithType: HarpsAppCanvas.WriteText
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  name: Xpos
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Xpos
+  commentId: P:HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  nameWithType: HarpsAppCanvas.Xpos
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Xpos*
+  name: Xpos
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Xpos_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  nameWithType: HarpsAppCanvas.Xpos
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  name: Ypos
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Ypos
+  commentId: P:HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  nameWithType: HarpsAppCanvas.Ypos
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Ypos*
+  name: Ypos
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Ypos_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  nameWithType: HarpsAppCanvas.Ypos
+- uid: HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+  name: getBitmap()
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_getBitmap
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.getBitmap()
+  nameWithType: HarpsAppCanvas.getBitmap()
+- uid: HarpsBOOSEapp.HarpsAppCanvas.getBitmap*
+  name: getBitmap
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_getBitmap_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+  nameWithType: HarpsAppCanvas.getBitmap
+- uid: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(System.Single)
+  name: setPenWidth(float)
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_setPenWidth_System_Single_
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(System.Single)
+  name.vb: setPenWidth(Single)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(float)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(Single)
+  nameWithType: HarpsAppCanvas.setPenWidth(float)
+  nameWithType.vb: HarpsAppCanvas.setPenWidth(Single)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth*
+  name: setPenWidth
+  href: api/HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_setPenWidth_
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.setPenWidth
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth
+  nameWithType: HarpsAppCanvas.setPenWidth
+- uid: HarpsBOOSEapp.HarpsCircle
+  name: HarpsCircle
+  href: api/HarpsBOOSEapp.HarpsCircle.html
+  commentId: T:HarpsBOOSEapp.HarpsCircle
+  fullName: HarpsBOOSEapp.HarpsCircle
+  nameWithType: HarpsCircle
+- uid: HarpsBOOSEapp.HarpsCircle.#ctor
+  name: HarpsCircle()
+  href: api/HarpsBOOSEapp.HarpsCircle.html#HarpsBOOSEapp_HarpsCircle__ctor
+  commentId: M:HarpsBOOSEapp.HarpsCircle.#ctor
+  name.vb: New()
+  fullName: HarpsBOOSEapp.HarpsCircle.HarpsCircle()
+  fullName.vb: HarpsBOOSEapp.HarpsCircle.New()
+  nameWithType: HarpsCircle.HarpsCircle()
+  nameWithType.vb: HarpsCircle.New()
+- uid: HarpsBOOSEapp.HarpsCircle.#ctor(BOOSE.Canvas,System.Int32)
+  name: HarpsCircle(Canvas, int)
+  href: api/HarpsBOOSEapp.HarpsCircle.html#HarpsBOOSEapp_HarpsCircle__ctor_BOOSE_Canvas_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsCircle.#ctor(BOOSE.Canvas,System.Int32)
+  name.vb: New(Canvas, Integer)
+  fullName: HarpsBOOSEapp.HarpsCircle.HarpsCircle(BOOSE.Canvas, int)
+  fullName.vb: HarpsBOOSEapp.HarpsCircle.New(BOOSE.Canvas, Integer)
+  nameWithType: HarpsCircle.HarpsCircle(Canvas, int)
+  nameWithType.vb: HarpsCircle.New(Canvas, Integer)
+- uid: HarpsBOOSEapp.HarpsCircle.#ctor*
+  name: HarpsCircle
+  href: api/HarpsBOOSEapp.HarpsCircle.html#HarpsBOOSEapp_HarpsCircle__ctor_
+  commentId: Overload:HarpsBOOSEapp.HarpsCircle.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HarpsBOOSEapp.HarpsCircle.HarpsCircle
+  fullName.vb: HarpsBOOSEapp.HarpsCircle.New
+  nameWithType: HarpsCircle.HarpsCircle
+  nameWithType.vb: HarpsCircle.New
+- uid: HarpsBOOSEapp.HarpsCircle.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/HarpsBOOSEapp.HarpsCircle.html#HarpsBOOSEapp_HarpsCircle_CheckParameters_System_String___
+  commentId: M:HarpsBOOSEapp.HarpsCircle.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: HarpsBOOSEapp.HarpsCircle.CheckParameters(string[])
+  fullName.vb: HarpsBOOSEapp.HarpsCircle.CheckParameters(String())
+  nameWithType: HarpsCircle.CheckParameters(string[])
+  nameWithType.vb: HarpsCircle.CheckParameters(String())
+- uid: HarpsBOOSEapp.HarpsCircle.CheckParameters*
+  name: CheckParameters
+  href: api/HarpsBOOSEapp.HarpsCircle.html#HarpsBOOSEapp_HarpsCircle_CheckParameters_
+  commentId: Overload:HarpsBOOSEapp.HarpsCircle.CheckParameters
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsCircle.CheckParameters
+  nameWithType: HarpsCircle.CheckParameters
+- uid: HarpsBOOSEapp.HarpsCircle.Execute
+  name: Execute()
+  href: api/HarpsBOOSEapp.HarpsCircle.html#HarpsBOOSEapp_HarpsCircle_Execute
+  commentId: M:HarpsBOOSEapp.HarpsCircle.Execute
+  fullName: HarpsBOOSEapp.HarpsCircle.Execute()
+  nameWithType: HarpsCircle.Execute()
+- uid: HarpsBOOSEapp.HarpsCircle.Execute*
+  name: Execute
+  href: api/HarpsBOOSEapp.HarpsCircle.html#HarpsBOOSEapp_HarpsCircle_Execute_
+  commentId: Overload:HarpsBOOSEapp.HarpsCircle.Execute
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsCircle.Execute
+  nameWithType: HarpsCircle.Execute
+- uid: HarpsBOOSEapp.HarpsCircle.radius
+  name: radius
+  href: api/HarpsBOOSEapp.HarpsCircle.html#HarpsBOOSEapp_HarpsCircle_radius
+  commentId: F:HarpsBOOSEapp.HarpsCircle.radius
+  fullName: HarpsBOOSEapp.HarpsCircle.radius
+  nameWithType: HarpsCircle.radius
+- uid: HarpsBOOSEapp.HarpsClear
+  name: HarpsClear
+  href: api/HarpsBOOSEapp.HarpsClear.html
+  commentId: T:HarpsBOOSEapp.HarpsClear
+  fullName: HarpsBOOSEapp.HarpsClear
+  nameWithType: HarpsClear
+- uid: HarpsBOOSEapp.HarpsClear.#ctor
+  name: HarpsClear()
+  href: api/HarpsBOOSEapp.HarpsClear.html#HarpsBOOSEapp_HarpsClear__ctor
+  commentId: M:HarpsBOOSEapp.HarpsClear.#ctor
+  name.vb: New()
+  fullName: HarpsBOOSEapp.HarpsClear.HarpsClear()
+  fullName.vb: HarpsBOOSEapp.HarpsClear.New()
+  nameWithType: HarpsClear.HarpsClear()
+  nameWithType.vb: HarpsClear.New()
+- uid: HarpsBOOSEapp.HarpsClear.#ctor(BOOSE.Canvas)
+  name: HarpsClear(Canvas)
+  href: api/HarpsBOOSEapp.HarpsClear.html#HarpsBOOSEapp_HarpsClear__ctor_BOOSE_Canvas_
+  commentId: M:HarpsBOOSEapp.HarpsClear.#ctor(BOOSE.Canvas)
+  name.vb: New(Canvas)
+  fullName: HarpsBOOSEapp.HarpsClear.HarpsClear(BOOSE.Canvas)
+  fullName.vb: HarpsBOOSEapp.HarpsClear.New(BOOSE.Canvas)
+  nameWithType: HarpsClear.HarpsClear(Canvas)
+  nameWithType.vb: HarpsClear.New(Canvas)
+- uid: HarpsBOOSEapp.HarpsClear.#ctor*
+  name: HarpsClear
+  href: api/HarpsBOOSEapp.HarpsClear.html#HarpsBOOSEapp_HarpsClear__ctor_
+  commentId: Overload:HarpsBOOSEapp.HarpsClear.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HarpsBOOSEapp.HarpsClear.HarpsClear
+  fullName.vb: HarpsBOOSEapp.HarpsClear.New
+  nameWithType: HarpsClear.HarpsClear
+  nameWithType.vb: HarpsClear.New
+- uid: HarpsBOOSEapp.HarpsClear.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/HarpsBOOSEapp.HarpsClear.html#HarpsBOOSEapp_HarpsClear_CheckParameters_System_String___
+  commentId: M:HarpsBOOSEapp.HarpsClear.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: HarpsBOOSEapp.HarpsClear.CheckParameters(string[])
+  fullName.vb: HarpsBOOSEapp.HarpsClear.CheckParameters(String())
+  nameWithType: HarpsClear.CheckParameters(string[])
+  nameWithType.vb: HarpsClear.CheckParameters(String())
+- uid: HarpsBOOSEapp.HarpsClear.CheckParameters*
+  name: CheckParameters
+  href: api/HarpsBOOSEapp.HarpsClear.html#HarpsBOOSEapp_HarpsClear_CheckParameters_
+  commentId: Overload:HarpsBOOSEapp.HarpsClear.CheckParameters
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsClear.CheckParameters
+  nameWithType: HarpsClear.CheckParameters
+- uid: HarpsBOOSEapp.HarpsClear.Execute
+  name: Execute()
+  href: api/HarpsBOOSEapp.HarpsClear.html#HarpsBOOSEapp_HarpsClear_Execute
+  commentId: M:HarpsBOOSEapp.HarpsClear.Execute
+  fullName: HarpsBOOSEapp.HarpsClear.Execute()
+  nameWithType: HarpsClear.Execute()
+- uid: HarpsBOOSEapp.HarpsClear.Execute*
+  name: Execute
+  href: api/HarpsBOOSEapp.HarpsClear.html#HarpsBOOSEapp_HarpsClear_Execute_
+  commentId: Overload:HarpsBOOSEapp.HarpsClear.Execute
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsClear.Execute
+  nameWithType: HarpsClear.Execute
+- uid: HarpsBOOSEapp.HarpsCommandFactory
+  name: HarpsCommandFactory
+  href: api/HarpsBOOSEapp.HarpsCommandFactory.html
+  commentId: T:HarpsBOOSEapp.HarpsCommandFactory
+  fullName: HarpsBOOSEapp.HarpsCommandFactory
+  nameWithType: HarpsCommandFactory
+- uid: HarpsBOOSEapp.HarpsCommandFactory.MakeCommand(System.String)
+  name: MakeCommand(string)
+  href: api/HarpsBOOSEapp.HarpsCommandFactory.html#HarpsBOOSEapp_HarpsCommandFactory_MakeCommand_System_String_
+  commentId: M:HarpsBOOSEapp.HarpsCommandFactory.MakeCommand(System.String)
+  name.vb: MakeCommand(String)
+  fullName: HarpsBOOSEapp.HarpsCommandFactory.MakeCommand(string)
+  fullName.vb: HarpsBOOSEapp.HarpsCommandFactory.MakeCommand(String)
+  nameWithType: HarpsCommandFactory.MakeCommand(string)
+  nameWithType.vb: HarpsCommandFactory.MakeCommand(String)
+- uid: HarpsBOOSEapp.HarpsCommandFactory.MakeCommand*
+  name: MakeCommand
+  href: api/HarpsBOOSEapp.HarpsCommandFactory.html#HarpsBOOSEapp_HarpsCommandFactory_MakeCommand_
+  commentId: Overload:HarpsBOOSEapp.HarpsCommandFactory.MakeCommand
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsCommandFactory.MakeCommand
+  nameWithType: HarpsCommandFactory.MakeCommand
+- uid: HarpsBOOSEapp.HarpsDrawTo
+  name: HarpsDrawTo
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html
+  commentId: T:HarpsBOOSEapp.HarpsDrawTo
+  fullName: HarpsBOOSEapp.HarpsDrawTo
+  nameWithType: HarpsDrawTo
+- uid: HarpsBOOSEapp.HarpsDrawTo.#ctor
+  name: HarpsDrawTo()
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo__ctor
+  commentId: M:HarpsBOOSEapp.HarpsDrawTo.#ctor
+  name.vb: New()
+  fullName: HarpsBOOSEapp.HarpsDrawTo.HarpsDrawTo()
+  fullName.vb: HarpsBOOSEapp.HarpsDrawTo.New()
+  nameWithType: HarpsDrawTo.HarpsDrawTo()
+  nameWithType.vb: HarpsDrawTo.New()
+- uid: HarpsBOOSEapp.HarpsDrawTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name: HarpsDrawTo(Canvas, int, int)
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo__ctor_BOOSE_Canvas_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsDrawTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name.vb: New(Canvas, Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsDrawTo.HarpsDrawTo(BOOSE.Canvas, int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsDrawTo.New(BOOSE.Canvas, Integer, Integer)
+  nameWithType: HarpsDrawTo.HarpsDrawTo(Canvas, int, int)
+  nameWithType.vb: HarpsDrawTo.New(Canvas, Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsDrawTo.#ctor*
+  name: HarpsDrawTo
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo__ctor_
+  commentId: Overload:HarpsBOOSEapp.HarpsDrawTo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HarpsBOOSEapp.HarpsDrawTo.HarpsDrawTo
+  fullName.vb: HarpsBOOSEapp.HarpsDrawTo.New
+  nameWithType: HarpsDrawTo.HarpsDrawTo
+  nameWithType.vb: HarpsDrawTo.New
+- uid: HarpsBOOSEapp.HarpsDrawTo.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo_CheckParameters_System_String___
+  commentId: M:HarpsBOOSEapp.HarpsDrawTo.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: HarpsBOOSEapp.HarpsDrawTo.CheckParameters(string[])
+  fullName.vb: HarpsBOOSEapp.HarpsDrawTo.CheckParameters(String())
+  nameWithType: HarpsDrawTo.CheckParameters(string[])
+  nameWithType.vb: HarpsDrawTo.CheckParameters(String())
+- uid: HarpsBOOSEapp.HarpsDrawTo.CheckParameters*
+  name: CheckParameters
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo_CheckParameters_
+  commentId: Overload:HarpsBOOSEapp.HarpsDrawTo.CheckParameters
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsDrawTo.CheckParameters
+  nameWithType: HarpsDrawTo.CheckParameters
+- uid: HarpsBOOSEapp.HarpsDrawTo.Execute
+  name: Execute()
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo_Execute
+  commentId: M:HarpsBOOSEapp.HarpsDrawTo.Execute
+  fullName: HarpsBOOSEapp.HarpsDrawTo.Execute()
+  nameWithType: HarpsDrawTo.Execute()
+- uid: HarpsBOOSEapp.HarpsDrawTo.Execute*
+  name: Execute
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo_Execute_
+  commentId: Overload:HarpsBOOSEapp.HarpsDrawTo.Execute
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsDrawTo.Execute
+  nameWithType: HarpsDrawTo.Execute
+- uid: HarpsBOOSEapp.HarpsDrawTo.x
+  name: x
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo_x
+  commentId: F:HarpsBOOSEapp.HarpsDrawTo.x
+  fullName: HarpsBOOSEapp.HarpsDrawTo.x
+  nameWithType: HarpsDrawTo.x
+- uid: HarpsBOOSEapp.HarpsDrawTo.y
+  name: y
+  href: api/HarpsBOOSEapp.HarpsDrawTo.html#HarpsBOOSEapp_HarpsDrawTo_y
+  commentId: F:HarpsBOOSEapp.HarpsDrawTo.y
+  fullName: HarpsBOOSEapp.HarpsDrawTo.y
+  nameWithType: HarpsDrawTo.y
+- uid: HarpsBOOSEapp.HarpsMoveTo
+  name: HarpsMoveTo
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html
+  commentId: T:HarpsBOOSEapp.HarpsMoveTo
+  fullName: HarpsBOOSEapp.HarpsMoveTo
+  nameWithType: HarpsMoveTo
+- uid: HarpsBOOSEapp.HarpsMoveTo.#ctor
+  name: HarpsMoveTo()
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo__ctor
+  commentId: M:HarpsBOOSEapp.HarpsMoveTo.#ctor
+  name.vb: New()
+  fullName: HarpsBOOSEapp.HarpsMoveTo.HarpsMoveTo()
+  fullName.vb: HarpsBOOSEapp.HarpsMoveTo.New()
+  nameWithType: HarpsMoveTo.HarpsMoveTo()
+  nameWithType.vb: HarpsMoveTo.New()
+- uid: HarpsBOOSEapp.HarpsMoveTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name: HarpsMoveTo(Canvas, int, int)
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo__ctor_BOOSE_Canvas_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsMoveTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name.vb: New(Canvas, Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsMoveTo.HarpsMoveTo(BOOSE.Canvas, int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsMoveTo.New(BOOSE.Canvas, Integer, Integer)
+  nameWithType: HarpsMoveTo.HarpsMoveTo(Canvas, int, int)
+  nameWithType.vb: HarpsMoveTo.New(Canvas, Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsMoveTo.#ctor*
+  name: HarpsMoveTo
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo__ctor_
+  commentId: Overload:HarpsBOOSEapp.HarpsMoveTo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HarpsBOOSEapp.HarpsMoveTo.HarpsMoveTo
+  fullName.vb: HarpsBOOSEapp.HarpsMoveTo.New
+  nameWithType: HarpsMoveTo.HarpsMoveTo
+  nameWithType.vb: HarpsMoveTo.New
+- uid: HarpsBOOSEapp.HarpsMoveTo.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo_CheckParameters_System_String___
+  commentId: M:HarpsBOOSEapp.HarpsMoveTo.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: HarpsBOOSEapp.HarpsMoveTo.CheckParameters(string[])
+  fullName.vb: HarpsBOOSEapp.HarpsMoveTo.CheckParameters(String())
+  nameWithType: HarpsMoveTo.CheckParameters(string[])
+  nameWithType.vb: HarpsMoveTo.CheckParameters(String())
+- uid: HarpsBOOSEapp.HarpsMoveTo.CheckParameters*
+  name: CheckParameters
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo_CheckParameters_
+  commentId: Overload:HarpsBOOSEapp.HarpsMoveTo.CheckParameters
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsMoveTo.CheckParameters
+  nameWithType: HarpsMoveTo.CheckParameters
+- uid: HarpsBOOSEapp.HarpsMoveTo.Execute
+  name: Execute()
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo_Execute
+  commentId: M:HarpsBOOSEapp.HarpsMoveTo.Execute
+  fullName: HarpsBOOSEapp.HarpsMoveTo.Execute()
+  nameWithType: HarpsMoveTo.Execute()
+- uid: HarpsBOOSEapp.HarpsMoveTo.Execute*
+  name: Execute
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo_Execute_
+  commentId: Overload:HarpsBOOSEapp.HarpsMoveTo.Execute
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsMoveTo.Execute
+  nameWithType: HarpsMoveTo.Execute
+- uid: HarpsBOOSEapp.HarpsMoveTo.x
+  name: x
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo_x
+  commentId: F:HarpsBOOSEapp.HarpsMoveTo.x
+  fullName: HarpsBOOSEapp.HarpsMoveTo.x
+  nameWithType: HarpsMoveTo.x
+- uid: HarpsBOOSEapp.HarpsMoveTo.y
+  name: y
+  href: api/HarpsBOOSEapp.HarpsMoveTo.html#HarpsBOOSEapp_HarpsMoveTo_y
+  commentId: F:HarpsBOOSEapp.HarpsMoveTo.y
+  fullName: HarpsBOOSEapp.HarpsMoveTo.y
+  nameWithType: HarpsMoveTo.y
+- uid: HarpsBOOSEapp.HarpsPen
+  name: HarpsPen
+  href: api/HarpsBOOSEapp.HarpsPen.html
+  commentId: T:HarpsBOOSEapp.HarpsPen
+  fullName: HarpsBOOSEapp.HarpsPen
+  nameWithType: HarpsPen
+- uid: HarpsBOOSEapp.HarpsPen.#ctor
+  name: HarpsPen()
+  href: api/HarpsBOOSEapp.HarpsPen.html#HarpsBOOSEapp_HarpsPen__ctor
+  commentId: M:HarpsBOOSEapp.HarpsPen.#ctor
+  name.vb: New()
+  fullName: HarpsBOOSEapp.HarpsPen.HarpsPen()
+  fullName.vb: HarpsBOOSEapp.HarpsPen.New()
+  nameWithType: HarpsPen.HarpsPen()
+  nameWithType.vb: HarpsPen.New()
+- uid: HarpsBOOSEapp.HarpsPen.#ctor(BOOSE.Canvas,System.Int32,System.Int32,System.Int32)
+  name: HarpsPen(Canvas, int, int, int)
+  href: api/HarpsBOOSEapp.HarpsPen.html#HarpsBOOSEapp_HarpsPen__ctor_BOOSE_Canvas_System_Int32_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsPen.#ctor(BOOSE.Canvas,System.Int32,System.Int32,System.Int32)
+  name.vb: New(Canvas, Integer, Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsPen.HarpsPen(BOOSE.Canvas, int, int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsPen.New(BOOSE.Canvas, Integer, Integer, Integer)
+  nameWithType: HarpsPen.HarpsPen(Canvas, int, int, int)
+  nameWithType.vb: HarpsPen.New(Canvas, Integer, Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsPen.#ctor*
+  name: HarpsPen
+  href: api/HarpsBOOSEapp.HarpsPen.html#HarpsBOOSEapp_HarpsPen__ctor_
+  commentId: Overload:HarpsBOOSEapp.HarpsPen.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HarpsBOOSEapp.HarpsPen.HarpsPen
+  fullName.vb: HarpsBOOSEapp.HarpsPen.New
+  nameWithType: HarpsPen.HarpsPen
+  nameWithType.vb: HarpsPen.New
+- uid: HarpsBOOSEapp.HarpsPen.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/HarpsBOOSEapp.HarpsPen.html#HarpsBOOSEapp_HarpsPen_CheckParameters_System_String___
+  commentId: M:HarpsBOOSEapp.HarpsPen.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: HarpsBOOSEapp.HarpsPen.CheckParameters(string[])
+  fullName.vb: HarpsBOOSEapp.HarpsPen.CheckParameters(String())
+  nameWithType: HarpsPen.CheckParameters(string[])
+  nameWithType.vb: HarpsPen.CheckParameters(String())
+- uid: HarpsBOOSEapp.HarpsPen.CheckParameters*
+  name: CheckParameters
+  href: api/HarpsBOOSEapp.HarpsPen.html#HarpsBOOSEapp_HarpsPen_CheckParameters_
+  commentId: Overload:HarpsBOOSEapp.HarpsPen.CheckParameters
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsPen.CheckParameters
+  nameWithType: HarpsPen.CheckParameters
+- uid: HarpsBOOSEapp.HarpsPen.Execute
+  name: Execute()
+  href: api/HarpsBOOSEapp.HarpsPen.html#HarpsBOOSEapp_HarpsPen_Execute
+  commentId: M:HarpsBOOSEapp.HarpsPen.Execute
+  fullName: HarpsBOOSEapp.HarpsPen.Execute()
+  nameWithType: HarpsPen.Execute()
+- uid: HarpsBOOSEapp.HarpsPen.Execute*
+  name: Execute
+  href: api/HarpsBOOSEapp.HarpsPen.html#HarpsBOOSEapp_HarpsPen_Execute_
+  commentId: Overload:HarpsBOOSEapp.HarpsPen.Execute
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsPen.Execute
+  nameWithType: HarpsPen.Execute
+- uid: HarpsBOOSEapp.HarpsRect
+  name: HarpsRect
+  href: api/HarpsBOOSEapp.HarpsRect.html
+  commentId: T:HarpsBOOSEapp.HarpsRect
+  fullName: HarpsBOOSEapp.HarpsRect
+  nameWithType: HarpsRect
+- uid: HarpsBOOSEapp.HarpsRect.#ctor
+  name: HarpsRect()
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect__ctor
+  commentId: M:HarpsBOOSEapp.HarpsRect.#ctor
+  name.vb: New()
+  fullName: HarpsBOOSEapp.HarpsRect.HarpsRect()
+  fullName.vb: HarpsBOOSEapp.HarpsRect.New()
+  nameWithType: HarpsRect.HarpsRect()
+  nameWithType.vb: HarpsRect.New()
+- uid: HarpsBOOSEapp.HarpsRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name: HarpsRect(Canvas, int, int)
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect__ctor_BOOSE_Canvas_System_Int32_System_Int32_
+  commentId: M:HarpsBOOSEapp.HarpsRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name.vb: New(Canvas, Integer, Integer)
+  fullName: HarpsBOOSEapp.HarpsRect.HarpsRect(BOOSE.Canvas, int, int)
+  fullName.vb: HarpsBOOSEapp.HarpsRect.New(BOOSE.Canvas, Integer, Integer)
+  nameWithType: HarpsRect.HarpsRect(Canvas, int, int)
+  nameWithType.vb: HarpsRect.New(Canvas, Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsRect.#ctor*
+  name: HarpsRect
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect__ctor_
+  commentId: Overload:HarpsBOOSEapp.HarpsRect.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HarpsBOOSEapp.HarpsRect.HarpsRect
+  fullName.vb: HarpsBOOSEapp.HarpsRect.New
+  nameWithType: HarpsRect.HarpsRect
+  nameWithType.vb: HarpsRect.New
+- uid: HarpsBOOSEapp.HarpsRect.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect_CheckParameters_System_String___
+  commentId: M:HarpsBOOSEapp.HarpsRect.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: HarpsBOOSEapp.HarpsRect.CheckParameters(string[])
+  fullName.vb: HarpsBOOSEapp.HarpsRect.CheckParameters(String())
+  nameWithType: HarpsRect.CheckParameters(string[])
+  nameWithType.vb: HarpsRect.CheckParameters(String())
+- uid: HarpsBOOSEapp.HarpsRect.CheckParameters*
+  name: CheckParameters
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect_CheckParameters_
+  commentId: Overload:HarpsBOOSEapp.HarpsRect.CheckParameters
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsRect.CheckParameters
+  nameWithType: HarpsRect.CheckParameters
+- uid: HarpsBOOSEapp.HarpsRect.Execute
+  name: Execute()
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect_Execute
+  commentId: M:HarpsBOOSEapp.HarpsRect.Execute
+  fullName: HarpsBOOSEapp.HarpsRect.Execute()
+  nameWithType: HarpsRect.Execute()
+- uid: HarpsBOOSEapp.HarpsRect.Execute*
+  name: Execute
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect_Execute_
+  commentId: Overload:HarpsBOOSEapp.HarpsRect.Execute
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.HarpsRect.Execute
+  nameWithType: HarpsRect.Execute
+- uid: HarpsBOOSEapp.HarpsRect.height
+  name: height
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect_height
+  commentId: F:HarpsBOOSEapp.HarpsRect.height
+  fullName: HarpsBOOSEapp.HarpsRect.height
+  nameWithType: HarpsRect.height
+- uid: HarpsBOOSEapp.HarpsRect.width
+  name: width
+  href: api/HarpsBOOSEapp.HarpsRect.html#HarpsBOOSEapp_HarpsRect_width
+  commentId: F:HarpsBOOSEapp.HarpsRect.width
+  fullName: HarpsBOOSEapp.HarpsRect.width
+  nameWithType: HarpsRect.width
+- uid: HarpsBOOSEapp.mainForm
+  name: mainForm
+  href: api/HarpsBOOSEapp.mainForm.html
+  commentId: T:HarpsBOOSEapp.mainForm
+  fullName: HarpsBOOSEapp.mainForm
+  nameWithType: mainForm
+- uid: HarpsBOOSEapp.mainForm.#ctor
+  name: mainForm()
+  href: api/HarpsBOOSEapp.mainForm.html#HarpsBOOSEapp_mainForm__ctor
+  commentId: M:HarpsBOOSEapp.mainForm.#ctor
+  name.vb: New()
+  fullName: HarpsBOOSEapp.mainForm.mainForm()
+  fullName.vb: HarpsBOOSEapp.mainForm.New()
+  nameWithType: mainForm.mainForm()
+  nameWithType.vb: mainForm.New()
+- uid: HarpsBOOSEapp.mainForm.#ctor*
+  name: mainForm
+  href: api/HarpsBOOSEapp.mainForm.html#HarpsBOOSEapp_mainForm__ctor_
+  commentId: Overload:HarpsBOOSEapp.mainForm.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HarpsBOOSEapp.mainForm.mainForm
+  fullName.vb: HarpsBOOSEapp.mainForm.New
+  nameWithType: mainForm.mainForm
+  nameWithType.vb: mainForm.New
+- uid: HarpsBOOSEapp.mainForm.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/HarpsBOOSEapp.mainForm.html#HarpsBOOSEapp_mainForm_Dispose_System_Boolean_
+  commentId: M:HarpsBOOSEapp.mainForm.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: HarpsBOOSEapp.mainForm.Dispose(bool)
+  fullName.vb: HarpsBOOSEapp.mainForm.Dispose(Boolean)
+  nameWithType: mainForm.Dispose(bool)
+  nameWithType.vb: mainForm.Dispose(Boolean)
+- uid: HarpsBOOSEapp.mainForm.Dispose*
+  name: Dispose
+  href: api/HarpsBOOSEapp.mainForm.html#HarpsBOOSEapp_mainForm_Dispose_
+  commentId: Overload:HarpsBOOSEapp.mainForm.Dispose
+  isSpec: "True"
+  fullName: HarpsBOOSEapp.mainForm.Dispose
+  nameWithType: mainForm.Dispose

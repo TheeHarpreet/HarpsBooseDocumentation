@@ -1,0 +1,1439 @@
+### YamlMime:ManagedReference
+items:
+- uid: HarpsBOOSEapp.HarpsAppCanvas
+  commentId: T:HarpsBOOSEapp.HarpsAppCanvas
+  id: HarpsAppCanvas
+  parent: HarpsBOOSEapp
+  children:
+  - HarpsBOOSEapp.HarpsAppCanvas.#ctor(System.Int32,System.Int32)
+  - HarpsBOOSEapp.HarpsAppCanvas.Circle(System.Int32,System.Boolean)
+  - HarpsBOOSEapp.HarpsAppCanvas.Clear
+  - HarpsBOOSEapp.HarpsAppCanvas.DrawTo(System.Int32,System.Int32)
+  - HarpsBOOSEapp.HarpsAppCanvas.MoveTo(System.Int32,System.Int32)
+  - HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  - HarpsBOOSEapp.HarpsAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  - HarpsBOOSEapp.HarpsAppCanvas.Reset
+  - HarpsBOOSEapp.HarpsAppCanvas.Set(System.Int32,System.Int32)
+  - HarpsBOOSEapp.HarpsAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  - HarpsBOOSEapp.HarpsAppCanvas.Tri(System.Int32,System.Int32)
+  - HarpsBOOSEapp.HarpsAppCanvas.WriteText(System.String)
+  - HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  - HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  - HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+  - HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: HarpsAppCanvas
+  nameWithType: HarpsAppCanvas
+  fullName: HarpsBOOSEapp.HarpsAppCanvas
+  type: Class
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: HarpsAppCanvas
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 11
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  syntax:
+    content: 'public class HarpsAppCanvas : ICanvas'
+    content.vb: Public Class HarpsAppCanvas Implements ICanvas
+  inheritance:
+  - System.Object
+  implements:
+  - BOOSE.ICanvas
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: HarpsBOOSEapp.HarpsAppCanvas.#ctor(System.Int32,System.Int32)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: HarpsAppCanvas(int, int)
+  nameWithType: HarpsAppCanvas.HarpsAppCanvas(int, int)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.HarpsAppCanvas(int, int)
+  type: Constructor
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: .ctor
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 20
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  syntax:
+    content: public HarpsAppCanvas(int xsize, int ysize)
+    parameters:
+    - id: xsize
+      type: System.Int32
+    - id: ysize
+      type: System.Int32
+    content.vb: Public Sub New(xsize As Integer, ysize As Integer)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.#ctor*
+  nameWithType.vb: HarpsAppCanvas.New(Integer, Integer)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  commentId: P:HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  id: Xpos
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Xpos
+  nameWithType: HarpsAppCanvas.Xpos
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  type: Property
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: Xpos
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 29
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public int Xpos { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Xpos As Integer
+  overload: HarpsBOOSEapp.HarpsAppCanvas.Xpos*
+  implements:
+  - BOOSE.ICanvas.Xpos
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  commentId: P:HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  id: Ypos
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Ypos
+  nameWithType: HarpsAppCanvas.Ypos
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  type: Property
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: Ypos
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 30
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public int Ypos { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Ypos As Integer
+  overload: HarpsBOOSEapp.HarpsAppCanvas.Ypos*
+  implements:
+  - BOOSE.ICanvas.Ypos
+- uid: HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  commentId: P:HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  id: PenColour
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: PenColour
+  nameWithType: HarpsAppCanvas.PenColour
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  type: Property
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: PenColour
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 32
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public object PenColour { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property PenColour As Object
+  overload: HarpsBOOSEapp.HarpsAppCanvas.PenColour*
+  implements:
+  - BOOSE.ICanvas.PenColour
+- uid: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(System.Single)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(System.Single)
+  id: setPenWidth(System.Single)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: setPenWidth(float)
+  nameWithType: HarpsAppCanvas.setPenWidth(float)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(float)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: setPenWidth
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 37
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  syntax:
+    content: public void setPenWidth(float width)
+    parameters:
+    - id: width
+      type: System.Single
+    content.vb: Public Sub setPenWidth(width As Single)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth*
+  nameWithType.vb: HarpsAppCanvas.setPenWidth(Single)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth(Single)
+  name.vb: setPenWidth(Single)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Circle(System.Int32,System.Boolean)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Circle(System.Int32,System.Boolean)
+  id: Circle(System.Int32,System.Boolean)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Circle(int, bool)
+  nameWithType: HarpsAppCanvas.Circle(int, bool)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Circle(int, bool)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: Circle
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 42
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void Circle(int radius, bool filled)
+    parameters:
+    - id: radius
+      type: System.Int32
+    - id: filled
+      type: System.Boolean
+    content.vb: Public Sub Circle(radius As Integer, filled As Boolean)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.Circle*
+  implements:
+  - BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  nameWithType.vb: HarpsAppCanvas.Circle(Integer, Boolean)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Clear
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Clear
+  id: Clear
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: HarpsAppCanvas.Clear()
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Clear()
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: Clear
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 47
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: HarpsBOOSEapp.HarpsAppCanvas.Clear*
+  implements:
+  - BOOSE.ICanvas.Clear
+- uid: HarpsBOOSEapp.HarpsAppCanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.DrawTo(System.Int32,System.Int32)
+  id: DrawTo(System.Int32,System.Int32)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawTo(int, int)
+  nameWithType: HarpsAppCanvas.DrawTo(int, int)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.DrawTo(int, int)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: DrawTo
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 52
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void DrawTo(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    content.vb: Public Sub DrawTo(x As Integer, y As Integer)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.DrawTo*
+  implements:
+  - BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  nameWithType.vb: HarpsAppCanvas.DrawTo(Integer, Integer)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+  id: getBitmap
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: getBitmap()
+  nameWithType: HarpsAppCanvas.getBitmap()
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.getBitmap()
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: getBitmap
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 59
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public object getBitmap()
+    return:
+      type: System.Object
+    content.vb: Public Function getBitmap() As Object
+  overload: HarpsBOOSEapp.HarpsAppCanvas.getBitmap*
+  implements:
+  - BOOSE.ICanvas.getBitmap
+- uid: HarpsBOOSEapp.HarpsAppCanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.MoveTo(System.Int32,System.Int32)
+  id: MoveTo(System.Int32,System.Int32)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(int, int)
+  nameWithType: HarpsAppCanvas.MoveTo(int, int)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.MoveTo(int, int)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: MoveTo
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 64
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void MoveTo(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    content.vb: Public Sub MoveTo(x As Integer, y As Integer)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.MoveTo*
+  implements:
+  - BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  nameWithType.vb: HarpsAppCanvas.MoveTo(Integer, Integer)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  id: Rect(System.Int32,System.Int32,System.Boolean)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Rect(int, int, bool)
+  nameWithType: HarpsAppCanvas.Rect(int, int, bool)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Rect(int, int, bool)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: Rect
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 70
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void Rect(int width, int height, bool filled)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: filled
+      type: System.Boolean
+    content.vb: Public Sub Rect(width As Integer, height As Integer, filled As Boolean)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.Rect*
+  implements:
+  - BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  nameWithType.vb: HarpsAppCanvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Reset
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Reset
+  id: Reset
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: HarpsAppCanvas.Reset()
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Reset()
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: Reset
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 75
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: HarpsBOOSEapp.HarpsAppCanvas.Reset*
+  implements:
+  - BOOSE.ICanvas.Reset
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Set(System.Int32,System.Int32)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Set(System.Int32,System.Int32)
+  id: Set(System.Int32,System.Int32)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Set(int, int)
+  nameWithType: HarpsAppCanvas.Set(int, int)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Set(int, int)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: Set
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 82
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void Set(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    content.vb: Public Sub [Set](width As Integer, height As Integer)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.Set*
+  implements:
+  - BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  nameWithType.vb: HarpsAppCanvas.Set(Integer, Integer)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  id: SetColour(System.Int32,System.Int32,System.Int32)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: SetColour(int, int, int)
+  nameWithType: HarpsAppCanvas.SetColour(int, int, int)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.SetColour(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: SetColour
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 87
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void SetColour(int red, int green, int blue)
+    parameters:
+    - id: red
+      type: System.Int32
+    - id: green
+      type: System.Int32
+    - id: blue
+      type: System.Int32
+    content.vb: Public Sub SetColour(red As Integer, green As Integer, blue As Integer)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.SetColour*
+  implements:
+  - BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  nameWithType.vb: HarpsAppCanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Tri(System.Int32,System.Int32)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.Tri(System.Int32,System.Int32)
+  id: Tri(System.Int32,System.Int32)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Tri(int, int)
+  nameWithType: HarpsAppCanvas.Tri(int, int)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Tri(int, int)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: Tri
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 92
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void Tri(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    content.vb: Public Sub Tri(width As Integer, height As Integer)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.Tri*
+  implements:
+  - BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  nameWithType.vb: HarpsAppCanvas.Tri(Integer, Integer)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.Tri(Integer, Integer)
+  name.vb: Tri(Integer, Integer)
+- uid: HarpsBOOSEapp.HarpsAppCanvas.WriteText(System.String)
+  commentId: M:HarpsBOOSEapp.HarpsAppCanvas.WriteText(System.String)
+  id: WriteText(System.String)
+  parent: HarpsBOOSEapp.HarpsAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: WriteText(string)
+  nameWithType: HarpsAppCanvas.WriteText(string)
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.WriteText(string)
+  type: Method
+  source:
+    remote:
+      path: HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-TheeHarpreet.git
+    id: WriteText
+    path: ../repos/ase-boose-assignment-TheeHarpreet/HarpsBOOSEapp/HarpsBOOSEapp/HarpsAppCanvas.cs
+    startLine: 97
+  assemblies:
+  - HarpsBOOSEapp
+  namespace: HarpsBOOSEapp
+  example: []
+  syntax:
+    content: public void WriteText(string text)
+    parameters:
+    - id: text
+      type: System.String
+    content.vb: Public Sub WriteText(text As String)
+  overload: HarpsBOOSEapp.HarpsAppCanvas.WriteText*
+  implements:
+  - BOOSE.ICanvas.WriteText(System.String)
+  nameWithType.vb: HarpsAppCanvas.WriteText(String)
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.WriteText(String)
+  name.vb: WriteText(String)
+references:
+- uid: HarpsBOOSEapp
+  commentId: N:HarpsBOOSEapp
+  href: HarpsBOOSEapp.html
+  name: HarpsBOOSEapp
+  nameWithType: HarpsBOOSEapp
+  fullName: HarpsBOOSEapp
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: BOOSE.ICanvas
+  commentId: T:BOOSE.ICanvas
+  parent: BOOSE
+  isExternal: true
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: BOOSE.ICanvas
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: HarpsBOOSEapp.HarpsAppCanvas.#ctor*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.#ctor
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas__ctor_System_Int32_System_Int32_
+  name: HarpsAppCanvas
+  nameWithType: HarpsAppCanvas.HarpsAppCanvas
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.HarpsAppCanvas
+  nameWithType.vb: HarpsAppCanvas.New
+  fullName.vb: HarpsBOOSEapp.HarpsAppCanvas.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Xpos*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Xpos
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Xpos
+  name: Xpos
+  nameWithType: HarpsAppCanvas.Xpos
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Xpos
+- uid: BOOSE.ICanvas.Xpos
+  commentId: P:BOOSE.ICanvas.Xpos
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Xpos
+  nameWithType: ICanvas.Xpos
+  fullName: BOOSE.ICanvas.Xpos
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Ypos*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Ypos
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Ypos
+  name: Ypos
+  nameWithType: HarpsAppCanvas.Ypos
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Ypos
+- uid: BOOSE.ICanvas.Ypos
+  commentId: P:BOOSE.ICanvas.Ypos
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Ypos
+  nameWithType: ICanvas.Ypos
+  fullName: BOOSE.ICanvas.Ypos
+- uid: HarpsBOOSEapp.HarpsAppCanvas.PenColour*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.PenColour
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_PenColour
+  name: PenColour
+  nameWithType: HarpsAppCanvas.PenColour
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.PenColour
+- uid: BOOSE.ICanvas.PenColour
+  commentId: P:BOOSE.ICanvas.PenColour
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: PenColour
+  nameWithType: ICanvas.PenColour
+  fullName: BOOSE.ICanvas.PenColour
+- uid: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.setPenWidth
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_setPenWidth_System_Single_
+  name: setPenWidth
+  nameWithType: HarpsAppCanvas.setPenWidth
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.setPenWidth
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Circle*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Circle
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Circle_System_Int32_System_Boolean_
+  name: Circle
+  nameWithType: HarpsAppCanvas.Circle
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Circle
+- uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  commentId: M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Circle(int, bool)
+  nameWithType: ICanvas.Circle(int, bool)
+  fullName: BOOSE.ICanvas.Circle(int, bool)
+  nameWithType.vb: ICanvas.Circle(Integer, Boolean)
+  fullName.vb: BOOSE.ICanvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Clear*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Clear
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Clear
+  name: Clear
+  nameWithType: HarpsAppCanvas.Clear
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Clear
+- uid: BOOSE.ICanvas.Clear
+  commentId: M:BOOSE.ICanvas.Clear
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Clear()
+  nameWithType: ICanvas.Clear()
+  fullName: BOOSE.ICanvas.Clear()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.DrawTo*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.DrawTo
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_DrawTo_System_Int32_System_Int32_
+  name: DrawTo
+  nameWithType: HarpsAppCanvas.DrawTo
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.DrawTo
+- uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawTo(int, int)
+  nameWithType: ICanvas.DrawTo(int, int)
+  fullName: BOOSE.ICanvas.DrawTo(int, int)
+  nameWithType.vb: ICanvas.DrawTo(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.getBitmap*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_getBitmap
+  name: getBitmap
+  nameWithType: HarpsAppCanvas.getBitmap
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.getBitmap
+- uid: BOOSE.ICanvas.getBitmap
+  commentId: M:BOOSE.ICanvas.getBitmap
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: getBitmap()
+  nameWithType: ICanvas.getBitmap()
+  fullName: BOOSE.ICanvas.getBitmap()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.getBitmap
+    name: getBitmap
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.getBitmap
+    name: getBitmap
+    isExternal: true
+  - name: (
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.MoveTo*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.MoveTo
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_MoveTo_System_Int32_System_Int32_
+  name: MoveTo
+  nameWithType: HarpsAppCanvas.MoveTo
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.MoveTo
+- uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: MoveTo(int, int)
+  nameWithType: ICanvas.MoveTo(int, int)
+  fullName: BOOSE.ICanvas.MoveTo(int, int)
+  nameWithType.vb: ICanvas.MoveTo(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Rect*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Rect
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  name: Rect
+  nameWithType: HarpsAppCanvas.Rect
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Rect
+- uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Rect(int, int, bool)
+  nameWithType: ICanvas.Rect(int, int, bool)
+  fullName: BOOSE.ICanvas.Rect(int, int, bool)
+  nameWithType.vb: ICanvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: BOOSE.ICanvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Reset*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Reset
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Reset
+  name: Reset
+  nameWithType: HarpsAppCanvas.Reset
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Reset
+- uid: BOOSE.ICanvas.Reset
+  commentId: M:BOOSE.ICanvas.Reset
+  parent: BOOSE.ICanvas
+  isExternal: true
+  name: Reset()
+  nameWithType: ICanvas.Reset()
+  fullName: BOOSE.ICanvas.Reset()
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Set*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Set
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Set_System_Int32_System_Int32_
+  name: Set
+  nameWithType: HarpsAppCanvas.Set
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Set
+- uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.Set(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Set(int, int)
+  nameWithType: ICanvas.Set(int, int)
+  fullName: BOOSE.ICanvas.Set(int, int)
+  nameWithType.vb: ICanvas.Set(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.SetColour*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.SetColour
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  name: SetColour
+  nameWithType: HarpsAppCanvas.SetColour
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.SetColour
+- uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetColour(int, int, int)
+  nameWithType: ICanvas.SetColour(int, int, int)
+  fullName: BOOSE.ICanvas.SetColour(int, int, int)
+  nameWithType.vb: ICanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.Tri*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.Tri
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_Tri_System_Int32_System_Int32_
+  name: Tri
+  nameWithType: HarpsAppCanvas.Tri
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.Tri
+- uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Tri(int, int)
+  nameWithType: ICanvas.Tri(int, int)
+  fullName: BOOSE.ICanvas.Tri(int, int)
+  nameWithType.vb: ICanvas.Tri(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.Tri(Integer, Integer)
+  name.vb: Tri(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: HarpsBOOSEapp.HarpsAppCanvas.WriteText*
+  commentId: Overload:HarpsBOOSEapp.HarpsAppCanvas.WriteText
+  href: HarpsBOOSEapp.HarpsAppCanvas.html#HarpsBOOSEapp_HarpsAppCanvas_WriteText_System_String_
+  name: WriteText
+  nameWithType: HarpsAppCanvas.WriteText
+  fullName: HarpsBOOSEapp.HarpsAppCanvas.WriteText
+- uid: BOOSE.ICanvas.WriteText(System.String)
+  commentId: M:BOOSE.ICanvas.WriteText(System.String)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: WriteText(string)
+  nameWithType: ICanvas.WriteText(string)
+  fullName: BOOSE.ICanvas.WriteText(string)
+  nameWithType.vb: ICanvas.WriteText(String)
+  fullName.vb: BOOSE.ICanvas.WriteText(String)
+  name.vb: WriteText(String)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.WriteText(System.String)
+    name: WriteText
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.WriteText(System.String)
+    name: WriteText
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,34 @@
+### YamlMime:TableOfContent
+items:
+- uid: HarpsBOOSEapp
+  name: HarpsBOOSEapp
+  type: Namespace
+  items:
+  - uid: HarpsBOOSEapp.HarpsAppCanvas
+    name: HarpsAppCanvas
+    type: Class
+  - uid: HarpsBOOSEapp.HarpsCircle
+    name: HarpsCircle
+    type: Class
+  - uid: HarpsBOOSEapp.HarpsClear
+    name: HarpsClear
+    type: Class
+  - uid: HarpsBOOSEapp.HarpsCommandFactory
+    name: HarpsCommandFactory
+    type: Class
+  - uid: HarpsBOOSEapp.HarpsDrawTo
+    name: HarpsDrawTo
+    type: Class
+  - uid: HarpsBOOSEapp.HarpsMoveTo
+    name: HarpsMoveTo
+    type: Class
+  - uid: HarpsBOOSEapp.HarpsPen
+    name: HarpsPen
+    type: Class
+  - uid: HarpsBOOSEapp.HarpsRect
+    name: HarpsRect
+    type: Class
+  - uid: HarpsBOOSEapp.mainForm
+    name: mainForm
+    type: Class
+memberLayout: SamePage

@@ -1,0 +1,228 @@
+{
+  "source_base_path": "C:/Users/Aman/source/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.HarpsAppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.HarpsAppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.HarpsAppCanvas",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.HarpsCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.HarpsCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.HarpsCircle",
+      "Summary": "<p sourcefile=\"api/HarpsBOOSEapp.HarpsCircle.yml\" sourcestartlinenumber=\"1\">Draws a circle on the canvas with the specified radius</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.HarpsClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.HarpsClear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.HarpsClear",
+      "Summary": "<p sourcefile=\"api/HarpsBOOSEapp.HarpsClear.yml\" sourcestartlinenumber=\"1\">Command to clear the canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.HarpsCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.HarpsCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.HarpsCommandFactory",
+      "Summary": "<p sourcefile=\"api/HarpsBOOSEapp.HarpsCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory class to create Harps command objects based on command type</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.HarpsDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.HarpsDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.HarpsDrawTo",
+      "Summary": "<p sourcefile=\"api/HarpsBOOSEapp.HarpsDrawTo.yml\" sourcestartlinenumber=\"1\">Draws a line from the current position to the specified (x, y) coordinates</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.HarpsMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.HarpsMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.HarpsMoveTo",
+      "Summary": "<p sourcefile=\"api/HarpsBOOSEapp.HarpsMoveTo.yml\" sourcestartlinenumber=\"1\">Moves the current position to the specified (x, y) coordinates without drawing</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.HarpsPen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.HarpsPen.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.HarpsPen",
+      "Summary": "<p sourcefile=\"api/HarpsBOOSEapp.HarpsPen.yml\" sourcestartlinenumber=\"1\">Sets the pen color for drawing on the canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.HarpsRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.HarpsRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.HarpsRect",
+      "Summary": "<p sourcefile=\"api/HarpsBOOSEapp.HarpsRect.yml\" sourcestartlinenumber=\"1\">Draws a rectangle on the canvas with the specified width and height</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.mainForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.mainForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp.mainForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HarpsBOOSEapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HarpsBOOSEapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HarpsBOOSEapp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
