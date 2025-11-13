@@ -1,7 +1,0 @@
----
-title: Redirecting to API Documentation
----
-
-<meta http-equiv="refresh" content="0; url=api/index.html">
-
-Redirecting to [API Documentation](api/index.html)...
